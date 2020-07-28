@@ -9,11 +9,11 @@ We are going to talk about the underlying architecture of _Vue Storefront Next_ 
 [[toc]]
 
 ## Templates
-All the integration have their own best practices and in case of _Vue Storefront Next_, we prepared _boilerplate_ template for the starting point. The `boilerplate` packages are the minimum template to guide your own integration. They consist of 3 individual packages; ___API client___, ___Composables___, and ___Theme___. 
+All the integration have their own best practices and in case of _Vue Storefront Next_, we prepared _boilerplate_ template for the starting point for that matter. The `boilerplate` packages are the minimum template to guide your own integration. They consist of 3 individual packages; ___API client___, ___Composables___, and ___Theme___. 
 
 ![templates_d](../images/templates.png)
 
-This is the simple overview of how _Vue Storefront Next_ works. For an integration to fully work, you need to prepare those 3 packages in green, and _boilerplate_ packages are there for helping you start it as `boilerplate`, `boilerplate-api`, `boilerplate-theme` in `npm` package which is linked to `./packages/boilerplate` and its equivalent subfolder. 
+This is the simple overview of how _Vue Storefront Next_ works. For an integration to fully work, you need to prepare those 3 packages in green, and _boilerplate_ packages are there for just that purpose helping you start it with `boilerplate`, `boilerplate-api`, `boilerplate-theme` in `npm` package which is linked to `./packages/boilerplate` and its equivalent subfolder. 
 
 ## API
 It is data layer (TBD)
