@@ -15,6 +15,11 @@ All the integration have their own best practices and in case of _Vue Storefront
 
 This is the simple overview of how _Vue Storefront Next_ works. For an integration to fully work, you need to prepare those 3 packages in green, and _boilerplate_ packages are there for just that purpose helping you start it with `boilerplate`, `boilerplate-api`, `boilerplate-theme` in `npm` package which is linked to `./packages/boilerplate` and its equivalent subfolder. 
 
+:::tip EVER WONDER? 
+Why would we need _Composables_ before _API client_ when _Theme_ needs data? _Composables_ are basically [_Vue Composition API_](https://composition-api.vuejs.org/) which is designed to better organize features and enhance reusability. So the business logics needed for e-commerce platform are implemented in those _Composables_ for reusability and low coupling between _Presentation Layer_ and _Data Layer_.  
+
+:::
+
 ## API
 It is data layer (TBD)
 
