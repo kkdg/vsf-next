@@ -35,13 +35,13 @@ module.exports = {
             'general/architecture'
           ]
         },
-        {
-          title : 'Integration',
-          collapsable: false,
-          children: [
-            'integration/theory'
-          ]
-        },
+        // {
+        //   title : 'Integration',
+        //   collapsable: false,
+        //   children: [
+        //     'integration/theory'
+        //   ]
+        // },
         {
           title : 'commercetools',
           collapsable: false,
